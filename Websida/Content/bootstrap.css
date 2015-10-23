@@ -2337,6 +2337,7 @@ fieldset[disabled] .btn-link:focus {
   font-size: 18px;
   line-height: 1.33;
   border-radius: 6px;
+ 
 }
 
 .btn-sm,
@@ -4935,10 +4936,17 @@ a.list-group-item.active > .badge,
   line-height: 2.1428571435;
   color: inherit;
   background-color: #eeeeee;
+  background-image: url("background1.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  
+  
 }
 
 .jumbotron h1 {
-  line-height: 1;
+
+  
+  line-height: 3.5;
   color: inherit;
 }
 
@@ -4954,6 +4962,7 @@ a.list-group-item.active > .badge,
   .jumbotron {
     padding-top: 48px;
     padding-bottom: 48px;
+    background-image: url("background1.jpg");
   }
   .container .jumbotron {
     padding-right: 60px;
